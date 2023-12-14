@@ -8,7 +8,8 @@
 # Locate the Sample! 
 
 ## Step 1
-**While** the Agent **inspects the block down** and does **not** find **blue ice**, program the Agent to **destroy** and **move down**. When the Agent locates the **blue ice**, it needs to **destroy down** and **collect** the sample. 
+當Agent機器人**偵測下方方塊時****沒有偵測到****藍冰**時，讓Agent機器人**摧毀下方的方塊**並**向下移動**。
+當Agent機器人**偵測下方方塊時****偵測到****藍冰**時, 讓Agent機器人**摧毀下方的方塊**並**收集藍冰**。
 
 ```ghost 
 player.onChat("ice", function () {

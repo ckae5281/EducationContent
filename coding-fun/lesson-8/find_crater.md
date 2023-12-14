@@ -8,9 +8,8 @@
 # Surroundings 
 
 ## Step 1
-While the Agent **detects the block down**, it needs to move forward. If the Agent **inspects the block down** and finds **air**, then use ``||player:say||`` command to say **Crater found!**. 
-
-
+當Agent機器人**偵測到下方有方塊時**就向前移動。
+如果Agent機器人**偵測到下方為空氣時**就使用**玩家 說出**積木，並說出**Crater found!(已找到坑洞)**
 
 ```template
 player.onChat("crater", function () {

@@ -8,7 +8,13 @@
 # Iron
 
 ## Step 1
-While the Agent **inspects the block down** and this block is not **iron ore**, it needs to **move forward**. If the Agent **detects a block forward**, then it needs to **destroy forward**. When the Agent locates iron, program it to **collect** it. Note that in order to collect a block, Agent needs to destroy it first. 
+當Agent機器人**偵測到下方有方塊**且**不是鐵礦**時就**往前移動**。
+
+如果Agent機器人**偵測到前方有方塊**就**摧毀前方的方塊**。
+
+如果Agent機器人找到了鐵礦，就讓它採集起來。
+
+注意，你必須要摧毀鐵礦方塊後才能收集它。
 
 ```ghost
 player.onChat("4", function () {

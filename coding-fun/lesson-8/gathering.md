@@ -8,7 +8,7 @@
 # Holodeck 
 
 ## Step 1
-Use this holodeck to sharpen your skills! 
+利用這個全息模擬空間來精進你所學到的技巧吧！
 
 ```ghost
 player.onChat("3", function () {
