@@ -8,11 +8,15 @@
 # Locating stone 
 
 ## Step 1
-Fix this coding snippet. Here is what the Agent needs to do: **move** to the **left 4 times**, **destroy down**, **move down**. If the Agent detects a **stone** block forward, it needs to say "Found the stone!", **destroy forward** and **collect all**. If the stone is **not detected**, the Agent needs to say, "No stone here!". Each time after moving down, the Agent needs to **move 1 block up** to the surface. This activity needs to repeat **4** times.
+修正下面的程式碼，讓Agent機器人完成以下的步驟: 
 
+**往左移動4格**，**摧毀下方方塊**，**往下移動**。
 
+ 如果Agent機器人偵測到前方有**石磚方塊**，就說出「**Found the stone!**」，接著摧毀石磚方塊並收集。
 
+ 如果Agent沒有偵測到有石磚方塊，就說出「**No stone here!**」，接著**往上移動一格**回到表面。
 
+ 以上的動作需要重複**4**次。
 
 ```template
 player.onChat("stone", function () {

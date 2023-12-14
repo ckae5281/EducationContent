@@ -8,8 +8,13 @@
 # Repair the Rover 
 
 ## Step 1
-Fix this coding snippet. Here is the objective: while **inspecting** for a block of **air** and **not** finding it, the Agent needs to **move right**. If the Agent finds the block of **lapis lazuli** **in front**, it needs to **move right**, **turn left**, then **move right**. After that the Agent needs to say, "Found the break!" and **place a block of redstone forward**.
+修正下面的程式碼，讓Agent機器人完成以下的目標: 
 
+當Agent機器人**偵測前方時沒有偵測到空氣**，就向右移動。
+
+當Agent機器人**偵測前方時偵測到青金石(lapis lazuli)**，就向右移動，向左轉，再向右移動，
+
+接著會說出「**Found the break!(找到故障了)**」，並**在前方放置一塊紅石磚塊(redstone block)**
 
 
 ```template

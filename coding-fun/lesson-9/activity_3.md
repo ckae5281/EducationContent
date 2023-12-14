@@ -8,10 +8,15 @@
 # Track Down the Rover 
 
 ## Step 1
-Fix this coding snippet. Here is the objective: while **inspecting forward** for a block of **quartz** and **not** finding it, the Agent needs to **move forward**. If it **detects** a **gold** block **down**, it needs to **turn right**. If it detects a **block of iron down**, it needs to **turn left**. In the end the Agent needs to say, "Found the rover!"
+修正下面的程式碼，讓Agent機器人完成以下的目標: 
 
+當Agent機器人偵測前方時沒有偵測到**石英方塊**就往前移動，
 
+如果Agent機器人偵測下方時偵測到**黃金方塊**就向右轉，
 
+如果Agent機器人偵測下方時偵測到**鐵方塊**就向左轉。
+
+在程式的最後要讓Agent機器人說出「**Found the rover!(找到探測車了)**」
 
 ```template
 player.onChat("rover", function () {

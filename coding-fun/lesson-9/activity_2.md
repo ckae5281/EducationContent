@@ -8,7 +8,11 @@
 # Deep Stone 
 
 ## Step 1
-Fix this coding snippet. Here is the Agent's objective: dig down into the surface until it hits a **gold** block on the **left**. On the way down, the Agent will detect if **stone** is in front of it, and collect it.
+修正下面的程式碼，讓Agent機器人完成以下的步驟: 
+
+向下鑽入地表，直到**偵測到左側有黃金方塊**，
+
+在鑽下去的過程中，Agent機器人會偵測**前方**是否有**石磚**，如果有就破壞並收集起來。
 
 ```template
 player.onChat("dig", function () {
