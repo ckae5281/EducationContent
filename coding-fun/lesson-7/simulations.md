@@ -8,8 +8,7 @@
 # Simulation  
 
 ## Step 1
-Welcome to Simulations! Program your Agent to collect the gold blocks and destroy obstacles on its way.
-
+歡迎來到模擬空間！你可以在這裡撰寫程式操控你的Agent機器人收集**黃金方塊**，並摧毀路途中的障礙物。
 
 ```template
 player.onChat("simulations", function () {
