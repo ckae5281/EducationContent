@@ -8,11 +8,12 @@
 # Spiral
 
 ## Step 1
-While the Agent is **inspecting the block forward** and the block is **not** the **gold block**, the Agent needs to **move forward**. If the Agent does **not** detect a block forward, the Agent also needs to move forward, otherwise it needs to **turn left**. When the Agent reaches the **gold block**, it needs to **destroy** and **collect** it. 
+當Agent機器人**偵測到前方不是黃金方塊**時，如果前方**有方塊**，Agent機器人就要向左轉；如果前方**沒有方塊**，Agent機器人就要向前走。
 
+當Agent機器人**偵測到前方是黃金方塊**時，Agent機器人就需要**摧毀**並**收集**黃金方塊。
 
 ```ghost
-player.onChat("3", function () {
+player.onChat("run", function () {
     while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
         if (!(agent.detect(AgentDetection.Block, FORWARD))) {
             agent.move(FORWARD, 1)
