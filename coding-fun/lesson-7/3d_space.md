@@ -8,7 +8,9 @@
 # 3d Space
 
 ## Step 1
-To solve this challenge, you need to program the Agent to get to the **gold** block and collect it. The Agent needs to do it first on the ground level and then **move 3 levels up** and repeat the previous procedure.  
+要解決這道關卡，你需要撰寫程式讓Agent機器人能到達黃金方塊前並收集它。
+
+Agent機器人需要收集到第一層的黃金方塊後，**往上移動三格**後再重複第一層的步驟來收集上層的黃金方塊。
 
 ```template
 player.onChat("3D", function () {
