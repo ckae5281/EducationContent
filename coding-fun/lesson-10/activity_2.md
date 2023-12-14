@@ -8,9 +8,9 @@
 # Surroundings 
 
 ## Step 1
-While **inspecting the block down** that is **not** **packed ice**, if the Agent **detects the block right**, then it needs to **move forward**. Otherwise it needs to **move right**. Within the same loop, if the Agent **inspects the block down** and it is either **cobblestone** **or** **gravel**, then it needs to **destroy down** and **collect all**. 
+當Agent機器人**偵測到下方的方塊不是冰磚(packed ice)**時，如果**偵測到右邊有方塊**就往前移動，否則就**向右移動**。
 
-
+在上面的迴圈中，如果Agent機器人**偵測到下方的方塊是深板岩(cobblestone)** **或礫石(gravel)** 時，就要將它摧毀並收集起來。
 
 ```template
 player.onChat("ice", function () {

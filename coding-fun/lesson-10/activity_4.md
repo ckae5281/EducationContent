@@ -8,9 +8,7 @@
 # Surroundings 
 
 ## Step 1
-Time to work on your skills on the Holodeck!
-
-
+試著用你這堂課所學到的技巧解決這道關卡吧！
 
 ```ghost
 player.onChat("3", function () {

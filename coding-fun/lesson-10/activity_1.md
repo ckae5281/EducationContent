@@ -8,9 +8,7 @@
 # Surroundings 
 
 ## Step 1
-While  **inspecting the block down** that is **packed ice**, **if** the Agent **detects the block right**, it needs to **move forward**. Otherwise it needs to **move right**. 
-
-
+當Agent機器人**偵測到下方的方塊是冰磚(packed ice)**時，如果**偵測到右邊有方塊**就往前移動，否則就**向右移動**。
 
 ```ghost
 player.onChat("1", function () {

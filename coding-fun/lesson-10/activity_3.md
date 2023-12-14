@@ -8,9 +8,9 @@
 # Surroundings 
 
 ## Step 1
-While **inspecting the block down** that is **not packed ice**, program the Agent to locate, **destroy** and **collect** the following blocks: **iron**, **gold**, **emerald** and **diamond**. 
+當Agent機器人**偵測到下方的方塊不是冰磚(packed ice)**時，讓Agent機器人收集地圖上的**鐵礦(iron)**、**黃金(gold)**、**綠寶石(emerald)**與**鑽石(diamond)**。
 
-
+試著觀察出地圖上礦石的分布與Agent機器人移動路線之間的關係
 
 ```ghost
 player.onChat("3", function () {
