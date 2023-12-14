@@ -1,0 +1,24 @@
+{
+    "name": "educationcontent-blob-4be7cab732733ad246b7ee544726fa4bc281b109-coding-fun-lesson-7-material_detectmd",
+    "dependencies": {
+        "core": "*",
+        "builder": "*",
+        "educationcontent": "github:ckae5281/educationcontent"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.7.25",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "blocksprj"
+}
