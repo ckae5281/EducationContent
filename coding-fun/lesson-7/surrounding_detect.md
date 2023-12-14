@@ -8,7 +8,7 @@
 # Surroundings 
 
 ## Step 1
-While the Agent is **inspecting the block down** and the block is **stone**, the Agent needs to **move forward**. If the Agent does **not** detect a block forward, the Agent needs to **move forward**, otherwise it needs to **turn left**. 
+當Agent機器人**偵測到下方的方塊**是**石磚(stone)**時就會向前走。如果Agent機器人**沒有**偵測到前方有方塊就往前走，否則就**向左轉**。
 
 
 ```template
