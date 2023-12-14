@@ -10,7 +10,7 @@
 ## Step 1
 當Agent機器人**偵測到下方的方塊不是冰磚(packed ice)**時，如果**偵測到右邊有方塊**就往前移動，否則就**向右移動**。
 
-在上面的迴圈中，如果Agent機器人**偵測到下方的方塊是深板岩(cobblestone)** **或礫石(gravel)** 時，就要將它摧毀並收集起來。
+在上面的迴圈中，如果Agent機器人**偵測到下方的方塊是圓石(cobblestone)** **或礫石(gravel)** 時，就要將它摧毀並收集起來。
 
 ```template
 player.onChat("ice", function () {
