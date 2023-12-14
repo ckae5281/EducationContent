@@ -1,0 +1,29 @@
+{
+    "name": "educationcontent-blob-master-coding-fun-lesson-7-material_detect",
+    "dependencies": {
+        "core": "*",
+        "educationcontent": "github:ckae5281/educationcontent"
+    },
+    "files": [
+        "md",
+        "md/.vscode/extensions.json",
+        "md/.vscode/settings.json",
+        "md/README.md",
+        "md/main.blocks",
+        "md/main.ts",
+        "md/pxt.json",
+        "md/test.ts",
+        "md/tsconfig.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.7.25",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "blocksprj"
+}
