@@ -8,7 +8,11 @@
 # Planet visit
 
 ## Step 1
-Select the right code to run! You have only one attempt, so be careful!
+下面有編號1到3的程式，它們都是正確的所以不需要進行修改，
+
+你需要做的是仔細觀察程式碼，試著找出適合這次任務的程式碼並執行它。
+
+注意：你在這次任務只有一次機會可以嘗試，請務必仔細觀察並謹慎挑選。
 
 
 
