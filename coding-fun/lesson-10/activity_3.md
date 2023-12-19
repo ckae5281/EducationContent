@@ -15,11 +15,11 @@
 ```template
 player.onChat("run", function () {
     agent.setItem(STONE, 64, 1)
-    while (agent.inspect(AgentInspection.Block, DOWN) == ) {
-        if (agent.inspect(AgentInspection.Block, DOWN) ==  || agent.inspect(AgentInspection.Block, DOWN) == ) {
+    while (agent.inspect(AgentInspection.Block, DOWN) == STONE) {
+        if (agent.inspect(AgentInspection.Block, DOWN) == STONE || agent.inspect(AgentInspection.Block, DOWN) == STONE ) {
             agent.turn(LEFT_TURN)
         }
-        if (agent.inspect(AgentInspection.Block, DOWN) ==  || agent.inspect(AgentInspection.Block, DOWN) == ) {
+        if (agent.inspect(AgentInspection.Block, DOWN) == STONE || agent.inspect(AgentInspection.Block, DOWN) == STONE ) {
             agent.turn(RIGHT_TURN)
         }
         agent.move(FORWARD, 1)
