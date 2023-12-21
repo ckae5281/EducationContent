@@ -8,7 +8,7 @@
 # Surroundings 
 
 ## Step 1
-當Agent機器人偵測到下方的方塊是<strong>石磚(Stone)</strong>時，就按照下面的規則行動：<br>
+當Agent機器人偵測到下方的方塊是**石磚(Stone)** 時，就按照下面的規則行動：<br>
 ・如果偵測到前方有方塊就向左轉，否則就向前走。
 
 ```template
