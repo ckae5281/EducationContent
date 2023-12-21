@@ -8,16 +8,11 @@
 # Spiral
 
 ## Step 1
-當Agent機器人<strong>還沒偵測到前方是黃金方塊(Gold Block)前</strong>，讓Agent按照下面的指示行動：<br>
-<ul>
-<li>如果前方<strong>有方塊</strong>，Agent機器人就要向左轉</li><br>
-<li>如果前方<strong>沒有方塊</strong>，Agent機器人就要向前走</li>
-</ul>
+當Agent機器人<strong>還沒偵測到前方是黃金方塊(Gold Block)前</strong>，讓Agent按照下面的指示行動<br>
+<ul><li>如果前方<strong>有方塊</strong>，Agent機器人就要向左轉</li><br><li>如果前方<strong>沒有方塊</strong>，Agent機器人就要向前走</li></ul>
 
 當Agent機器人<strong>偵測到前方是黃金方塊(Gold Block)</strong> 時，就：<br>
-<ul>
-<li>摧毀黃金方塊(Gold Block)並<strong>收集它</strong></li>
-</ul>
+<ul><li>摧毀黃金方塊(Gold Block)並<strong>收集它</strong></li></ul>
 
 ```ghost
 player.onChat("run", function () {
