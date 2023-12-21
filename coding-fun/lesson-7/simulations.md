@@ -8,7 +8,9 @@
 # Simulation  
 
 ## Step 1
-歡迎來到模擬空間！你可以在這裡撰寫程式操控你的Agent機器人收集**黃金方塊**，並摧毀路途中的障礙物。
+歡迎來到模擬空間！你可以在這裡撰寫程式操控你的Agent機器人收集**黃金方塊(Gold Block)**，並摧毀路途中的障礙物。
+
+提示：在移動的路徑上，黃金方塊(Gold Block)好像都在Agent機器人的同一側，可以觀察看看是哪一側喔！
 
 ```template
 player.onChat("simulations", function () {
