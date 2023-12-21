@@ -17,7 +17,7 @@
 
 ```template
 player.onChat("run", function () {
-    while (agent.inspect(AgentInspection.Block, FORWARD) == GOLD_BLOCK) {
+    while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
         if (agent.detect(AgentDetection.Block, FORWARD)) {
 
         } else {
@@ -31,7 +31,7 @@ player.onChat("run", function () {
 
 ```ghost
 player.onChat("run", function () {
-    while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
+    while (agent.inspect(AgentInspection.Block, FORWARD) == GOLD_BLOCK) {
         if (agent.detect(AgentDetection.Block, FORWARD)) {
             agent.turn(LEFT_TURN)
         } else {
