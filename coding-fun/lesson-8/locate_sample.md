@@ -8,8 +8,8 @@
 # Locate the Sample! 
 
 ## Step 1
-當Agent機器人**偵測到下方有方塊且不是藍冰(Blue Ice)**時，讓Agent機器人**摧毀下方的方塊**並**向下移動**。
-當Agent機器人**偵測到下方有藍冰(Blue Ice)時**時, 讓Agent機器人**摧毀下方的方塊**並**收集藍冰(Blue Ice)**。
+・當Agent機器人**偵測到下方有藍冰(Blue Ice)以外的方塊**時，讓Agent機器人**摧毀下方的方塊**並**向下移動**。<br>
+・當Agent機器人**偵測到下方有藍冰(Blue Ice)時**時, 讓Agent機器人**摧毀下方的方塊**並**收集藍冰(Blue Ice)**。
 
 ```ghost 
 player.onChat("ice", function () {
