@@ -8,7 +8,7 @@
 # Detecting your first material
 
 ## Step 1
-你需要試著撰寫程式讓Agent機器人**摧毀**並**收集**黃金方塊，試試看吧！
+你需要試著撰寫程式讓Agent機器人**摧毀**並**收集**黃金方塊(Gold Block)，試試看吧！
 
 ```template
 player.onChat("material", function () {
