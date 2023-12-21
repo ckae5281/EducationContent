@@ -9,14 +9,16 @@
 
 ## Step 1
 <p>
-當Agent機器人<strong>還沒偵測到前方是黃金方塊(Gold Block)前</strong>，讓Agent按照下面的指示行動<br>
-<br>
+當Agent機器人<strong>還沒偵測到前方是黃金方塊(Gold Block)前</strong>，讓Agent按照下面的指示行動
+</p>
+<p>
 ・如果前方<strong>有方塊</strong>，Agent機器人就要向左轉<br>
 ・如果前方<strong>沒有方塊</strong>，Agent機器人就要向前走
 </p>
 <p>
-當Agent機器人<strong>偵測到前方是黃金方塊(Gold Block)</strong> 時，就：<br>
-<br>
+當Agent機器人<strong>偵測到前方是黃金方塊(Gold Block)</strong> 時，就：
+</p>
+<p>
 ・摧毀黃金方塊(Gold Block)並收集它
 </p>
 
