@@ -14,11 +14,10 @@
 
 ・如果Agent機器人**偵測到下方有鐵礦方塊(Iron ore)**，就把它採集起來。
 
-提示：所有的方塊都要先破壞後才能採集，你可以嘗試這麼做：
+提示：有時候前面有障礙物、有時候沒有，我們可以在迴圈內增加一個條件判斷式來判斷前面有障礙物時要做什麼：
 ```block
-if (agent.inspect(AgentInspection.Block, DOWN) == "鐵礦方塊(Iron ore)的積木") {
-        agent.destroy(DOWN)
-        agent.collectAll()
+if (agent.detect(AgentDetection.Block, FORWARD)) {
+        agent.destroy(FORWARD)
     }
 ```
 
